@@ -68,3 +68,30 @@ map <leader>g :Ack
 " When you press gv you Ack after the selected text
 vnoremap <silent> gv :call VisualSelection('gv', '')<CR>
 
+" NERDTree
+map <leader>nn :NERDTreeToggle<cr>
+map <leader>nb :NERDTreeFromBookmark<Space>
+map <leader>nf :NERDTreeFind<cr>
+
+" buffers
+map <leader>b :Buffers<cr>
+
+" mru
+map <leader>f :MRU<cr>
+
+" fzf
+nnoremap <c-p> :Files<cr>
+
+" tagbar
+nmap <leader>t :TagbarToggle<cr>
+
+" ycm
+nmap gd :YcmCompleter GoToDefinitionElseDeclaration<cr>
+nmap K :YcmCompleter GetDoc<cr>
+
+" syntastic
+map <leader>ln :lnext<cr>
+map <leader>lp :lprevious<cr>
+
+" autoformat
+map = :Autoformat<cr>

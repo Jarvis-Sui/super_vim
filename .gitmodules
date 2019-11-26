@@ -4,3 +4,54 @@
 [submodule "plugins/ack.vim"]
 	path = plugins/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
+[submodule "theme_plugins/ayu-vim"]
+	path = theme_plugins/ayu-vim
+	url = https://github.com/ayu-theme/ayu-vim.git
+[submodule "theme_plugins/indentLine"]
+	path = theme_plugins/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
+[submodule "theme_plugins/vim-airline"]
+	path = theme_plugins/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "theme_plugins/vim-airline-themes"]
+	path = theme_plugins/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "plugins/vim-fugitive"]
+	path = plugins/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "plugins/nerdtree"]
+	path = plugins/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "plugins/fzf.vim"]
+	path = plugins/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "plugins/mru"]
+	path = plugins/mru
+	url = https://github.com/yegappan/mru.git
+[submodule "plugins/tagbar"]
+	path = plugins/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "plugins/YouCompleteMe"]
+	path = plugins/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git
+[submodule "plugins/vim-commentary"]
+	path = plugins/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "plugins/vim-surround"]
+	path = plugins/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "plugins/vim-jsx"]
+	path = plugins/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
+[submodule "plugins/vim-javascript"]
+	path = plugins/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "plugins/syntastic"]
+	path = plugins/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "theme_plugins/vim-devicons"]
+	path = theme_plugins/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons.git
+[submodule "plugins/vim-autoformat"]
+	path = plugins/vim-autoformat
+	url = https://github.com/Chiel92/vim-autoformat.git

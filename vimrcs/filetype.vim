@@ -37,4 +37,16 @@ autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab
 """"""""""""""""""""
 " Yaml
 """"""""""""""""""""
-au FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+
+""""""""""""""""""""
+" Json
+""""""""""""""""""""
+autocmd Filetype json let g:indentLine_setConceal=0
+
+""""""""""""""""""""
+" Markdown
+""""""""""""""""""""
+autocmd Filetype markdown let g:indentLine_setConceal=0
+
+
