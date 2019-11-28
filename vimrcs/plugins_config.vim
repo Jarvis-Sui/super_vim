@@ -11,12 +11,6 @@ endif
 " ycm
 set completeopt=longest,menu
 
-" flake8
-" let g:flake8_show_quickfix=1
-" let g:flake8_show_in_gutter=1
-
-" autocmd BufWritePost *.py call flake8#Flake8() 
-
 " syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -27,3 +21,14 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers=['eslint']
+let g:syntastic_python_checkers=[] " seems there's some issues, disable it and use vim-flake8 instead
+
+" flake8
+let g:flake8_show_quickfix=1
+let g:flake8_show_in_gutter=1
+
+autocmd BufWritePost *.py call flake8#Flake8() 
+
+" vim-tmux-navigator
+" let g:tmux_navigator_disable_when_zoomed = 1
+
