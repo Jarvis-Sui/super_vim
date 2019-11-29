@@ -29,6 +29,3 @@ let g:flake8_show_in_gutter=1
 
 autocmd BufWritePost *.py call flake8#Flake8() 
 
-" vim-tmux-navigator
-" let g:tmux_navigator_disable_when_zoomed = 1
-
